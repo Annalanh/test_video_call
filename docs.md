@@ -1,0 +1,1 @@
+ice connection error in safari: https://github.com/feross/simple-peer/issues/502

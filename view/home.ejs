@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web RTC</title>
+</head>
+<body>
+    <h1>Thao gum WebRTC</h1>
+    <video id="localStream" width ="300" controls></video>
+    <br/><br/>
+    <video id="friendStream" width ="300" controls></video>
+    <br/><br/>
+    <label>My connection token</label>
+    <br/><br/>
+    <textarea id="txtMySignal" cols="100" rows="3"></textarea>
+    <br/><br/>
+    <input type="text" placeholder="Your friend's token"  id = "txtFriendSignal">
+    <br/><br/>
+    <button id="btnConnect">Connect</button>
+</body>
+<script src="../bundle.js"></script>
+</html>
