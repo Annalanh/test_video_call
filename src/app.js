@@ -19,16 +19,16 @@ openStream(function (stream) {
                 { urls: 'stun:stun3.l.google.com:19302' },
                 { urls: 'stun:stun4.l.google.com:19302' },
                 { urls: 'stun:global.stun.twilio.com:3478?transport=udp' },
-                {
-                    username: "k3sjhrG8bf_JtVATzpMHsd2TAWTuBIxDbJXchEdP7e_4LYMCen7TlZJkxE2PRjrCAAAAAF6G4D90aGFvZ3Vt",
-                    urls: "turn:ss-turn2.xirsys.com:80?transport=udp",
-                    credential: "841f7188-7579-11ea-8dfd-12fa47b8f761"
-                },
-                {
-                    username: "k3sjhrG8bf_JtVATzpMHsd2TAWTuBIxDbJXchEdP7e_4LYMCen7TlZJkxE2PRjrCAAAAAF6G4D90aGFvZ3Vt",
-                    urls: "turn:ss-turn2.xirsys.com:3478?transport=udp",
-                    credential: "841f7188-7579-11ea-8dfd-12fa47b8f761"
-                },
+                // {
+                //     username: "k3sjhrG8bf_JtVATzpMHsd2TAWTuBIxDbJXchEdP7e_4LYMCen7TlZJkxE2PRjrCAAAAAF6G4D90aGFvZ3Vt",
+                //     urls: "turn:ss-turn2.xirsys.com:80?transport=udp",
+                //     credential: "841f7188-7579-11ea-8dfd-12fa47b8f761"
+                // },
+                // {
+                //     username: "k3sjhrG8bf_JtVATzpMHsd2TAWTuBIxDbJXchEdP7e_4LYMCen7TlZJkxE2PRjrCAAAAAF6G4D90aGFvZ3Vt",
+                //     urls: "turn:ss-turn2.xirsys.com:3478?transport=udp",
+                //     credential: "841f7188-7579-11ea-8dfd-12fa47b8f761"
+                // },
                 {
                     username: "k3sjhrG8bf_JtVATzpMHsd2TAWTuBIxDbJXchEdP7e_4LYMCen7TlZJkxE2PRjrCAAAAAF6G4D90aGFvZ3Vt",
                     urls: "turn:ss-turn2.xirsys.com:80?transport=tcp",
